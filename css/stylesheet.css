@@ -1,0 +1,172 @@
+/*Body Styles*/
+body {
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+    font-style: normal;
+}
+
+h4 {line-height: 125%;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
+    font-style: normal;
+}
+
+p {line-height: 125%;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
+    font-style: normal;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+a {
+  color: #337ab7;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*Navigation Styles*/
+.navbar-brand {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+    font-style: normal;
+}
+
+.rightmenu {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+    font-style: normal;
+}
+
+/*Intro Styles*/
+.jumbotron {
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Desktop_1000x500_bw.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  margin-bottom: 0;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1, .jumbotron h2 {
+  color: #fff;
+   font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+    font-style: normal;
+}
+
+.btn-more, .btn-more:link, .btn-more:visited {
+    background-color: transparent;
+    border-radius: 0;
+    color: #E8880C;
+    border: 2px solid #E8880C;
+}
+.btn-more:active, .btn-more:hover {
+    background-color: #E8880C;
+    color: #fff
+}
+.btn-placement {
+  text-align:left;
+  margin: 50px 0px 0px 0px;
+}
+
+/*About Styles*/
+.about {
+  background-color: #cccccc;
+  padding: 20px 30px 30px 30px;
+}
+
+/*Portfolio Styles*/
+.caption-head {
+  margin: 0px 0px 0px 0px;
+}
+
+.portfolio {
+  background-color: #fff;
+  padding: 10px 30px 30px 30px;
+}
+
+.thumbnail {
+  display: inline-block;
+  overflow: hidden;
+    border: none;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+@media (min-width:1200px){
+    .auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
+    .auto-clear .col-lg-2:nth-child(6n+1){clear:left;}
+    .auto-clear .col-lg-3:nth-child(4n+1){clear:left;}
+    .auto-clear .col-lg-4:nth-child(3n+1){clear:left;}
+    .auto-clear .col-lg-6:nth-child(odd){clear:left;}
+}
+@media (min-width:992px) and (max-width:1199px){
+    .auto-clear .col-md-1:nth-child(12n+1){clear:left;}
+    .auto-clear .col-md-2:nth-child(6n+1){clear:left;}
+    .auto-clear .col-md-3:nth-child(4n+1){clear:left;}
+    .auto-clear .col-md-4:nth-child(3n+1){clear:left;}
+    .auto-clear .col-md-6:nth-child(odd){clear:left;}
+}
+@media (min-width:768px) and (max-width:991px){
+    .auto-clear .col-sm-1:nth-child(12n+1){clear:left;}
+    .auto-clear .col-sm-2:nth-child(6n+1){clear:left;}
+    .auto-clear .col-sm-3:nth-child(4n+1){clear:left;}
+    .auto-clear .col-sm-4:nth-child(3n+1){clear:left;}
+    .auto-clear .col-sm-6:nth-child(odd){clear:left;}
+}
+@media (max-width:767px){
+    .auto-clear .col-xs-1:nth-child(12n+1){clear:left;}
+    .auto-clear .col-xs-2:nth-child(6n+1){clear:left;}
+    .auto-clear .col-xs-3:nth-child(4n+1){clear:left;}
+    .auto-clear .col-xs-4:nth-child(3n+1){clear:left;}
+    .auto-clear .col-xs-6:nth-child(odd){clear:left;}
+}
+
+/*Contact Styles*/
+.contact {
+  background-color: #cccccc;
+  padding: 10px 30px 30px 30px;
+}
+.contact-icons {
+  text-align: center;
+  margin: auto;
+}
+
+.contact-icons i {
+  padding: 5px 5px 5px 5px;
+  color: #333333;
+}
+
+.contact-icons i:hover {
+  color: #337ab7;
+}
+
+/*Footer Styles*/
+.footer {
+  background-color: #222222;
+  padding: 20px 0px 10px 0px;
+}
+
+.footer p {
+  text-align: center;
+  color: #666666;
+}
