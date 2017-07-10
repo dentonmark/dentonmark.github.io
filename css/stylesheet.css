@@ -29,7 +29,8 @@ a.anchor {
 }
 
 a {
-  color: #337ab7;
+  color: #EE964B;
+  /*color: #337ab7;*/
 }
 
 a:hover {
@@ -185,7 +186,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('
 }
 
 .contact-icons i:hover {
-  color: #337ab7;
+  color: #EE964B;
 }
 
 /*Footer Styles*/
@@ -196,5 +197,9 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('
 
 .footer p {
   text-align: center;
+  color: #333333;
+}
+
+.footer a {
   color: #333333;
 }
