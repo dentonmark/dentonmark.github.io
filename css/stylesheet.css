@@ -113,7 +113,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('
 .about {
   color: #333333;
   background-color: #EBEBD3;
-  padding: 20px 100px 30px 30px;
+  padding: 20px 30px 30px 30px;
 }
 
 /*Portfolio Styles*/
